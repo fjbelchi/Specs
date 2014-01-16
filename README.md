@@ -1,9 +1,16 @@
-# A repository of CocoaPods specifications.
+# Work Angel repository of CocoaPods modules.
 
 [![Build Status](https://secure.travis-ci.org/CocoaPods/Specs.png?branch=master)](http://travis-ci.org/CocoaPods/Specs)
 
 This repository contains specifications of open-source Objective-C libraries, which are used by [CocoaPods](https://github.com/CocoaPods/CocoaPods) to manage library dependencies for your Xcode project.
 
+## Add Work Angel Private repo
+
+```console
+$ pod repo add wam https://github.com/workivate/Specs.git
+$ cd ~/.cocoapods/repos/wam
+$ git remote add upstream https://github.com/CocoaPods/Specs.git
+```
 
 ## Creating specifications
 
