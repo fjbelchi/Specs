@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.framework = 'CoreData'
   s.libraries	 =  'xml2'
   s.xcconfig 	 =  { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
-  s.dependency  'MagicalRecord', '~> 2.2'
+  s.dependency  'MagicalRecord', '~> 2.1.5'
 end
